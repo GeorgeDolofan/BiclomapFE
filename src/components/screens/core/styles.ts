@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.main`
   display: grid;
   grid-template-rows: 1fr 5rem;
-  min-height: 100vh;
+  grid-template-areas: 'content' 'navbar';
+  height: 100vh;
   color: whitesmoke;
   background-image: radial-gradient(
       circle 5px at top left,

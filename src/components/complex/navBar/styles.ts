@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.nav`
+  grid-area: navbar;
   display: grid;
   place-content: center;
   box-shadow: 0 -0.2rem 0.7rem 0.1rem hsl(0 0% 0% / 0.5);
@@ -30,5 +31,5 @@ export const Container = styled.nav`
       hsla(127, 0%, 46%, 0.2) 4px,
       hsla(127, 0%, 46%, 0.2) 6px
     ),
-    linear-gradient(90deg, rgb(23, 23, 23), rgb(23, 23, 23));
+    linear-gradient(0deg, rgb(23, 65, 23), rgb(23, 95, 23));
 `;
