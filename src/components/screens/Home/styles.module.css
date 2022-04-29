@@ -1,0 +1,29 @@
+.form__control{
+    display:flex;
+    margin-top:8px;
+    gap:4px;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+.form__control>input{
+    border:none;
+    outline:0;
+    width: 300px;
+    height: 32px;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    background-color: #c2fbd7;
+    
+}
+.form__control>input:focus{
+    border-color: #00CC00;
+}
+.center{
+    align-items: center;
+}
+.bike{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
